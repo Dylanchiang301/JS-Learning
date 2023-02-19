@@ -47,7 +47,7 @@
     let name1 = 'dylan';
     let name2 = 'red';
     [name1,name2]=[name2, name1]
-    console.log(name1);
+    console.log(name1); // output:'red'
 
 4. 統整function的參數
     - 參數為物件

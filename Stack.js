@@ -9,8 +9,8 @@ clear(): 清空 stack 裡的東西
 size(): return 長度
 
 2. 用class的方式，使用Array來建立一個Stack
-// push 從最頂端加入
-// pop 從最頂端
+push 從最頂端加入
+pop 從最頂端
 class Stack {
   constructor(){
     this.stackList = []
@@ -50,3 +50,6 @@ function test(){
   return val.length === 1;
 }
 console.log(test());
+
+let aaaa = [123,35,46546];
+console.log(aaaa);
